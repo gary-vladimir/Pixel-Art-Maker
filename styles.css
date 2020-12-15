@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    background-image: url('background2.jpg');
+}
+
+h1 {
+    font-family: lobster;
+    color: darkred;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    text-align: center;
+}
+
+h2:first-of-type {
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(46, 87, 121);
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type='number'] {
+    width: 6em;
+}
+
+strong {
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(46, 87, 121);
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 600px;
+    height: 600px;
+    border: 0.5px solid black;
+    background-color: white;
+}
+#canvas {
+    font-family: 'Carter One', cursive;
+    color: orangered;
+    font-size: 40px;
+    margin-top: -5px;
+    -webkit-text-stroke: 0.2px darkblue;
+}
+
+.rainbow {
+    font-family: 'Carter One', cursive;
+    -webkit-animation: rainbow 5s infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        color: darkslategrey;
+    }
+    10% {
+        color: purple;
+    }
+    20% {
+        color: darkviolet;
+    }
+    30% {
+        color: darkblue;
+    }
+    40% {
+        color: darkred;
+    }
+    50% {
+        color: coral;
+    }
+    60% {
+        color: green;
+    }
+    70% {
+        color: mediumvioletred;
+    }
+    80% {
+        color: dodgerblue;
+    }
+    90% {
+        color: darkcyan;
+    }
+    100% {
+        color: seagreen;
+    }
+}

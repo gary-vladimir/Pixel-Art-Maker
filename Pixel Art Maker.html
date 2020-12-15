@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form onsubmit=makeGrid(event)>
+        <strong>Height</strong>:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        <strong>Grid Width</strong>:
+        <input type="number" id="inputWidth" name="width" min="1" value="1">
+        <input type="submit">
+    </form>
+
+    <h2 class = "rainbow">Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2 id = "canvas">Design Canvas!!</h2>
+    
+    <div id='mainContainer' class="container">
+        <div class = "box" id = "1"></div>
+    </div>
+
+    <table id="pixelCanvas"></table>
+
+    <script src="designs.js"></script>
+</body>
+</html>
