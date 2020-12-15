@@ -1,3 +1,4 @@
 # Pixel-Art-Maker
-a web page that creates a grid of any size you like and alows you to pick a color to create your pixel art,
-to use it you just have to download the files and open the html file in a browser
+This is a web page that alows a user to dynamicly create a grid of any size they like
+and alows them to create pixel art by changing the color of a pixel when the user clicks
+on that square, to use it you just have to download the files and open the html file in a browser
